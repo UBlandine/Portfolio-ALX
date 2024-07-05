@@ -1,9 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "express nodemon",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "build": "tsc",
+    "lint": "eslint.",
+    "format": "prettier --write.",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
