@@ -1,0 +1,114 @@
+ 
+ /* src/components/LandingPage.css */
+.landing-page {
+  background: #f0f2f5;
+  height: 100vh;
+}
+
+.navbar {
+  background: #D2649A;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 5rem;
+  
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 20rem;
+  display: flex;
+  gap: 5rem; 
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul li {
+  margin: 0;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: white; 
+}
+
+.scroll img {
+  height: 40px;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  
+  flex: 1;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-right: 5rem; 
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+
+.header h2,
+.header p,
+.header .buttons {
+  margin: 0;
+}
+
+.header .buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tasks img {
+  margin-top: 10rem;
+  max-width: 500px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  background-color: #eac3d6;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: 2px solid #D2649A;
+  transition: background-color 0.3s ease;
+  padding: 0 1rem;
+}
+
+.submit {
+  font-size: 1rem;
+  padding: 0.9rem 2rem;
+  border: none;
+  background: #D2649A;
+  color: black;
+  cursor: pointer;
+  border-radius: 2rem;
+  margin-left: 6.1rem;
+}
+ 
