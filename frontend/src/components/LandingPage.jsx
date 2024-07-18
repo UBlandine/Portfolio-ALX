@@ -1,17 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './landing.css';
 import { Link } from 'react-router-dom';
 import image from '../images/img1.jpg';
 import logo from '../images/logo.png';
-import scroll from '../images/scroll.png';
 
 const LandingPage = () => {
+  const [messages, setMessages] = useState([
+    "Your 100% TM Solution",
+    "Efficient Task Management",
+    "Streamlined Workflows"
+  ]);
+  const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentMessageIndex((prevIndex) =>
+        prevIndex === messages.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000); // Change message every 3 seconds (adjust as needed)
+
+    return () => clearInterval(interval);
+  }, [messages]);
+
   return (
     <div className='landing-page'>
       <nav className='navbar'>
         <div className='logo'>
-        <img src={logo} alt="Logo" />
-
+          <img src={logo} alt="Logo" />
         </div>
         <ul>
           <li><Link to="/">Home</Link></li>
@@ -19,29 +34,25 @@ const LandingPage = () => {
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
-        <div className='scroll'>
-        <img src={scroll} alt="Scroll" />
-        </div>
+        <div className='login'>Log in</div>
+        <button className='signin'>Sign in</button>
       </nav>
       <div className='main-content'>
-      <div className='home'>
-      <header className='header'>
-        {/* <h1>Welcome to Task Manager</h1> */}
-        <h2>Your 100% TM Solution</h2>
-        <p>Simplifying Management <br /> With Technologies!</p>
+        <header className='header'>
+          <h1>Welcome to Task Manager</h1>
+          <h2>{messages[currentMessageIndex]}</h2>
+          
+        </header>
+        <div className='tasks'>
+          <img src={image} alt="Logo" />
+        </div>
         <div className='buttons'>
           <button className='search'>
             Search
-            <button className='submit'>Submit</button>
           </button>
+          <button className='submit'>Get started</button>
         </div>
-      </header>
-      <div className='tasks'>
-        <img src={image} alt="Logo" />
-
       </div>
-      </div>
-    </div>
     </div>
   );
 }
