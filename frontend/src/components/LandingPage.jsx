@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './landing.css';
 import { Link } from 'react-router-dom';
-import image from '../images/img1.jpg';
-import logo from '../images/logo.png';
+import image from '../../src/images/img1.jpg';
+import logo from '../../src/images/logo.png';
 
 const LandingPage = () => {
   const [messages, setMessages] = useState([
