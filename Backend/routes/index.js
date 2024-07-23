@@ -5,4 +5,6 @@ const allRoutes = express.Router();
 
 allRoutes.use();
 
+allRoutes('/auth', authRoute);
+
 module.exports = allRoutes;
