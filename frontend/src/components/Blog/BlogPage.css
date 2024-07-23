@@ -1,0 +1,55 @@
+/* src/components/BlogPage.css */
+.blog-page {
+  text-align: center;
+  color: white;
+}
+
+.blog-page-header {
+  background-image: url('../../images/blog1.png'); /* Add your background image */
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.blog-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.blog {
+  text-align: center;
+  margin: 10px;
+}
+
+.blog img {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+}
+
+.blog h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.blog a {
+  color: #6e124a; /* Adjust color as needed */
+  text-decoration: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pagination a {
+  margin: 0 5px;
+  color: #6e124a; /* Adjust color as needed */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+}
