@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Events - Event Management System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f7f7f7;
+    }
+    .header-section {
+      background-image: url('https://example.com/events-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+    }
+    .header-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .events-section {
+      padding: 60px 0;
+    }
+    .event-card {
+      border: none;
+      transition: transform 0.3s ease-in-out;
+    }
+    .event-card:hover {
+      transform: scale(1.05);
+    }
+    .event-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .event-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .event-description {
+      font-size: 1rem;
+      color: #6c757d;
+    }
+    .btn-primary {
+      background-color: #28a745;
+      border-color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <section class="header-section text-center">
+    <div class="container text-black">
+      <h1>Upcoming Events</h1>
+      <p class="lead">Join us for amazing events that you don't want to miss</p>
+    </div>
+    
+  </section>
+
+  <!-- Events Section -->
+  <section class="events-section">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col">
+          <h2 class="display-6">Featured Events</h2>
+          <p class="lead">Explore our most popular upcoming events</p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Event 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card event-card shadow">
+            <img src="https://example.com/event1.jpg" alt="Event 1" class="event-image">
+            <div class="card-body">
+              <h5 class="event-title">Corporate Conference 2024</h5>
+              <p class="event-description">A high-profile corporate event where industry leaders come together to discuss innovative strategies.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Event 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card event-card shadow">
+            <img src="https://example.com/event2.jpg" alt="Event 2" class="event-image">
+            <div class="card-body">
+              <h5 class="event-title">Summer Festival 2024</h5>
+              <p class="event-description">Enjoy live music, food, and fun activities at the annual summer festival, perfect for families and friends.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Event 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card event-card shadow">
+            <img src="https://example.com/event3.jpg" alt="Event 3" class="event-image">
+            <div class="card-body">
+              <h5 class="event-title">Wedding Expo 2024</h5>
+              <p class="event-description">Discover the latest wedding trends, meet vendors, and plan the perfect wedding at this exciting expo.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upcoming Events Section -->
+      <div class="row text-center mt-5">
+        <div class="col">
+          <h2 class="display-6">Upcoming Events</h2>
+          <p class="lead">Check out the latest events happening soon</p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Upcoming Event 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card event-card shadow">
+            <img src="https://example.com/upcoming1.jpg" alt="Upcoming Event 1" class="event-image">
+            <div class="card-body">
+              <h5 class="event-title">Business Networking Meetup</h5>
+              <p class="event-description">Connect with business professionals and expand your network at this exclusive meetup.</p>
+              <a href="#" class="btn btn-primary">Register Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Upcoming Event 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card event-card shadow">
+            <img src="https://example.com/upcoming2.jpg" alt="Upcoming Event 2" class="event-image">
+            <div class="card-body">
+              <h5 class="event-title">Charity Gala Dinner</h5>
+              <p class="event-description">Join us for a gala dinner in support of a charitable cause, featuring live performances and a silent auction.</p>
+              <a href="#" class="btn btn-primary">Register Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-4">
+    <div class="container">
+      <div class="row">
+        <!-- About Section -->
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>
+            We are a company dedicated to providing the best service. Our goal is to meet and exceed our customers' expectations.
+          </p>
+        </div>
+  
+        <!-- Links Section -->
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="/index.html" class="text-white">Home</a></li>
+            <li><a href="./about/about.html" class="text-white">About</a></li>
+            <li><a href="./services/services.html" class="text-white">Services</a></li>
+            <li><a href="/contact/contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Section -->
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Main St, City, Country</li>
+            <li><i class="fas fa-phone"></i> +123 456 7890</li>
+            <li><i class="fas fa-envelope"></i> info@example.com</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Social Media Section -->
+      <div class="row mt-4">
+        <div class="col text-center">
+          <a href="#" class="text-white mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="https://x.com/?logout=1724680667815" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/blandine-ugirihirwe-3a443723a/" class="text-white mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold">Find us</h6>
+        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px"/>
+        <!-- Google Map Embed -->
+        <div id="map-container" class="map-container" style="height: 200px;">
+            <iframe
+                src="https://maps.google.com/maps?q=kigali,%20rwanda&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                style="border:0; width: 100%; height: 100%;"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+  
+      <!-- Copyright Section -->
+      <div class="row mt-3">
+        <div class="col text-center">
+          <p class="mb-0">© 2024 Your Company. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

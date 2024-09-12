@@ -1,0 +1,13 @@
+body{
+  background-color: fff;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+.btn{
+  background-color: #d35400;
+  border-color: #d35400;
+}

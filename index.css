@@ -1,0 +1,189 @@
+  /* Navbar styles */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    /* background-color: #b3bedc; */
+    background-color: #e3e6f0;
+  }
+  /* .main{
+    background-color: #d0d8ec;
+    margin: 2rem;
+  } */
+  .home {
+    /* background-image: url('./Images/bg5.jpg');  */
+    
+    
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+  }
+  .navbar {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #d35400;
+  }
+
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #000;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #d35400;
+  }
+
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-section .carousel-item img {
+    filter: brightness(50%);
+  }
+
+  .hero-section .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .hero-section p {
+    font-size: 1.25rem;
+    color: #fff;
+  }
+
+  .hero-section .btn-primary {
+    background-color: #d35400;
+    border: none;
+  }
+
+  .hero-section .btn-primary:hover {
+    background-color: #e67e22;
+  }
+ 
+  /*----------------------About--------------------*/
+.about{
+        /* background-color: #536493; */
+        color: black !important;
+        font-family: Arial, sans-serif;
+        /* background-color: #536493; */
+    }
+
+    .about-section, .what-we-do {
+        
+        /* padding: 1rem 0; */
+        border-radius: 8px;
+    }
+    .about-section {
+        /* background-color: #536493; */
+        margin-top: 8rem;
+    }
+    .about-section h2, .what-we-do h2, .contact-form h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .about-section h4, .what-we-do h4 {
+        font-size: 1.5rem;
+    }
+    .about-section p, .what-we-do p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .stats {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .stats div {
+        font-size: 1.2rem;
+    }
+    .stats strong {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .what-we-do {
+        margin-bottom: 2rem;
+        /* background-color: #a5afca; */
+        color: white;
+    }
+    .what-we-do .row > div {
+        text-align: center;
+    }
+    .what-we-do h5 {
+        margin-top: 0.5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .what-we-do p {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    .contact-form {
+        text-align: center;
+    }
+    .contact-form h2 {
+        margin-bottom: 1.5rem;
+    }
+    .contact-form .form-control {
+        background-color: #f8f8f8;
+        border: none;
+        border-radius: 0;
+    }
+    .contact-form .btn {
+        /* background-color: #a5afca; */
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        padding: 0.75rem 1.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+    .contact-form img {
+        width: 100%;
+        max-width: 100px;
+        margin-top: 1rem;
+    }
+  /*-----blog---*/
+
+.mainBlog{
+
+
+margin: 5rem 10em;
+gap: 2em;
+
+}
+.card1{
+display: flex;
+flex-direction: row;
+gap: 3rem;
+margin: 5em 10em;
+}
+
+.btn-primary{
+background-color: #536493;
+}
+.btn-primary:hover{
+background-color: black !important;
+}
+#contact{
+  /* background-color: #536493; */
+}
