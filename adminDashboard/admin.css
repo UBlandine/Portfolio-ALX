@@ -1,0 +1,72 @@
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+h4 {
+  color: #333333;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  background-color: #d35400;
+  color: white;
+}
+
+.card h5 {
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
